@@ -25,7 +25,7 @@ Create a REST API to manage a basic resource (e.g., users, tasks, products) with
 
 #### Data Storage
 
-- **Database:** Use SQLite for data storage (via Sequelize, Prisma, or better-sqlite3).
+- **Database:** Use SQLite for data storage (via Sequelize, TypeORM, Prisma, or better-sqlite3).
 - **Schema:** Design a simple schema relevant to the managed resource.
 
 #### Testing
