@@ -43,12 +43,12 @@ Containerize the API application using Docker to ensure easy setup and environme
 
 #### Dockerfile
 
-- Create a Dockerfile for your Node.js application, optimizing for minimal image size (e.g., use `node:alpine`).
+- Create a Dockerfile for your Node.js application, optimizing for minimal image size.
 
 #### Docker Compose
 
 - **Compose File:** Create a `docker-compose.yml` file to run the API and mount a persistent volume for SQLite.
-- **Volumes:** Use volumes to persist database data and optionally enable live code reloading (e.g., using `nodemon` in dev).
+- **Volumes:** Use volumes to persist database data and optionally enable live code reloading.
 
 #### Deployment Script
 
